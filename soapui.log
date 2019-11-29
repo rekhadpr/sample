@@ -1,0 +1,23 @@
+2019-11-29 09:53:04,872 WARN  [SoapUI] Missing folder [C:\Users\SnehaTomer\Desktop\New Project\my-app1\ext] for external libraries
+2019-11-29 09:53:05,205 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SnehaTomer\soapui-settings.xml]
+2019-11-29 09:53:06,766 INFO  [PluginManager] 0 plugins loaded in 3 ms
+2019-11-29 09:53:06,767 INFO  [DefaultSoapUICore] All plugins loaded
+2019-11-29 09:53:08,800 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SnehaTomer/Desktop/New%20Project/my-app1/WSDL-Project-soapui-project.xml]
+2019-11-29 09:53:08,808 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [WSDL Project Old]
+2019-11-29 09:53:08,812 INFO  [SoapUITestCaseRunner] Running Project [WSDL Project Old], runType = SEQUENTIAL
+2019-11-29 09:53:08,834 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer Operation]
+2019-11-29 09:53:08,872 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2019-11-29 09:53:11,324 INFO  [log] 361
+2019-11-29 09:53:11,340 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2019-11-29 09:53:11,341 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2019-11-29 09:53:11,342 INFO  [SoapUITestCaseRunner] running step [GetAllCustomer]
+2019-11-29 09:53:13,385 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2019-11-29 09:53:13,387 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2019-11-29 09:53:13,394 INFO  [SoapUITestCaseRunner] running step [GetCustomerById]
+2019-11-29 09:53:14,133 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2019-11-29 09:53:14,135 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2019-11-29 09:53:14,136 INFO  [SoapUITestCaseRunner] running step [DeleteCustomerById]
+2019-11-29 09:53:15,371 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2019-11-29 09:53:15,381 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2019-11-29 09:53:15,393 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer Operation], time taken: 6450ms, status: FINISHED
+2019-11-29 09:53:15,401 INFO  [SoapUITestCaseRunner] Project [WSDL Project Old] finished with status [FINISHED] in 6578ms
